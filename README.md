@@ -10,11 +10,14 @@ The file agentframework.py implements a class to encapsulate all the attributes 
 The environment and agents' activities are plotted using the matplotlib.pyplot module.
 
 Partial codes for the assignment were supplied with the course notes and additional enhancements were added such as:
+
 1. write out the environment as a text csv file, environment.csv
 
 2.wite out the total amount of resources stored by all agent to a file stores.csv and allow this information to be appended to the file on each run.
 
-3.Allow agents to eat units of resources remaining in the environment after each agent has eaten 10 units. Agents will eat remaining resources if there are less than 10 units but they should not leave the environment with a negative value.
+3.Allow agents to eat units of resources remaining in the environment after each agent has eaten 10 units. Agents will eat remaining resources if there are less than 10 units but they should not leave the units of resources in the environment with a negative value.
+
+4.Agents eating more than 100 units of resources are greedy and will regurgitate the excess.
 
 
 
